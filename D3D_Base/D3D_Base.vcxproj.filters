@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CubeMan">
+      <UniqueIdentifier>{d05912bf-3490-4e9d-9ea2-b26c9570a998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MYMANAGER">
+      <UniqueIdentifier>{b5a98cf5-8b33-43a8-a245-6d097dc7c993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileLoader">
+      <UniqueIdentifier>{d7302e2a-5488-4357-9906-c726a043fa2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileLoader\ObjLoader">
+      <UniqueIdentifier>{45a5a72d-132b-4428-8f6d-5516ce4cce57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileLoader\AseLoader">
+      <UniqueIdentifier>{c104b19b-927f-4313-a5d4-c36782124071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasicThings">
+      <UniqueIdentifier>{69948fc1-1b09-4b41-8f1d-c5ba0e1da316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{52534c54-5df4-48a9-aed4-4410719e43c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Action">
+      <UniqueIdentifier>{c4b6c732-fa76-4aea-9dbb-ac8425a533e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{b551b802-1a72-479b-946a-4ded4bc2fb35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileLoader\RawLoader">
+      <UniqueIdentifier>{6003523d-2e8a-43d5-acd4-82f45c6a6dc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{b3c0610b-4616-4846-bc01-cbf88d7c13a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map\HeightMap">
+      <UniqueIdentifier>{599e9f81-7c8f-47d1-9719-931619fe6aa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\ObjBase">
+      <UniqueIdentifier>{cba029b6-9ec3-4605-a815-60de46dc1028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Character">
+      <UniqueIdentifier>{c440f07a-f326-4b7d-a38f-18fdb66a869a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D_Base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cMainGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cCubeBody.h">
+      <Filter>CubeMan</Filter>
+    </ClInclude>
+    <ClInclude Include="cCubeHead.h">
+      <Filter>CubeMan</Filter>
+    </ClInclude>
+    <ClInclude Include="cCubeLArm.h">
+      <Filter>CubeMan</Filter>
+    </ClInclude>
+    <ClInclude Include="cCubeLLeg.h">
+      <Filter>CubeMan</Filter>
+    </ClInclude>
+    <ClInclude Include="cCubeRArm.h">
+      <Filter>CubeMan</Filter>
+    </ClInclude>
+    <ClInclude Include="cCubeRLeg.h">
+      <Filter>CubeMan</Filter>
+    </ClInclude>
+    <ClInclude Include="cObjLoader.h">
+      <Filter>FileLoader\ObjLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="cGroup.h">
+      <Filter>FileLoader\ObjLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry3D.h">
+      <Filter>MYMANAGER</Filter>
+    </ClInclude>
+    <ClInclude Include="cAseLoader.h">
+      <Filter>FileLoader\AseLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="cAseNode.h">
+      <Filter>FileLoader\AseLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="cMtlTex.h">
+      <Filter>FileLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="cKeyManager.h">
+      <Filter>MYMANAGER</Filter>
+    </ClInclude>
+    <ClInclude Include="cSceneManager.h">
+      <Filter>MYMANAGER</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimer.h">
+      <Filter>MYMANAGER</Filter>
+    </ClInclude>
+    <ClInclude Include="cAction.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="cActionBezier.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="cActionLinear.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="cActionRepeat.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="cActionSeq.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="cObjectManager.h">
+      <Filter>MYMANAGER</Filter>
+    </ClInclude>
+    <ClInclude Include="cDeviceManager.h">
+      <Filter>MYMANAGER</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeManager.h">
+      <Filter>MYMANAGER</Filter>
+    </ClInclude>
+    <ClInclude Include="cCubeMan.h">
+      <Filter>CubeMan</Filter>
+    </ClInclude>
+    <ClInclude Include="cCube.h">
+      <Filter>BasicThings</Filter>
+    </ClInclude>
+    <ClInclude Include="cCubeNode.h">
+      <Filter>BasicThings</Filter>
+    </ClInclude>
+    <ClInclude Include="cGrid.h">
+      <Filter>BasicThings</Filter>
+    </ClInclude>
+    <ClInclude Include="cPyramid.h">
+      <Filter>BasicThings</Filter>
+    </ClInclude>
+    <ClInclude Include="cCamera.h">
+      <Filter>BasicThings</Filter>
+    </ClInclude>
+    <ClInclude Include="Asciitok.h">
+      <Filter>FileLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="cInterpolation.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="cTextureManager.h">
+      <Filter>MYMANAGER</Filter>
+    </ClInclude>
+    <ClInclude Include="cAseLoaderScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameNode.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="cBufferScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="cSphereMesh.h">
+      <Filter>BasicThings</Filter>
+    </ClInclude>
+    <ClInclude Include="cRawLoader.h">
+      <Filter>FileLoader\RawLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="cRawLoaderScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="iMap.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="cHeightMap.h">
+      <Filter>Map\HeightMap</Filter>
+    </ClInclude>
+    <ClInclude Include="cObject.h">
+      <Filter>Objects\ObjBase</Filter>
+    </ClInclude>
+    <ClInclude Include="cCharacter.h">
+      <Filter>Objects\ObjBase</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameObject.h">
+      <Filter>Objects\ObjBase</Filter>
+    </ClInclude>
+    <ClInclude Include="cRabitGirl.h">
+      <Filter>Objects\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="cDie.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D_Base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cMainGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cCubeBody.cpp">
+      <Filter>CubeMan</Filter>
+    </ClCompile>
+    <ClCompile Include="cCubeHead.cpp">
+      <Filter>CubeMan</Filter>
+    </ClCompile>
+    <ClCompile Include="cCubeLArm.cpp">
+      <Filter>CubeMan</Filter>
+    </ClCompile>
+    <ClCompile Include="cCubeLLeg.cpp">
+      <Filter>CubeMan</Filter>
+    </ClCompile>
+    <ClCompile Include="cCubeRArm.cpp">
+      <Filter>CubeMan</Filter>
+    </ClCompile>
+    <ClCompile Include="cCubeRLeg.cpp">
+      <Filter>CubeMan</Filter>
+    </ClCompile>
+    <ClCompile Include="cObjLoader.cpp">
+      <Filter>FileLoader\ObjLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="cGroup.cpp">
+      <Filter>FileLoader\ObjLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry3D.cpp">
+      <Filter>MYMANAGER</Filter>
+    </ClCompile>
+    <ClCompile Include="cAseLoader.cpp">
+      <Filter>FileLoader\AseLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="cAseNode.cpp">
+      <Filter>FileLoader\AseLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="cMtlTex.cpp">
+      <Filter>FileLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="cKeyManager.cpp">
+      <Filter>MYMANAGER</Filter>
+    </ClCompile>
+    <ClCompile Include="cSceneManager.cpp">
+      <Filter>MYMANAGER</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimer.cpp">
+      <Filter>MYMANAGER</Filter>
+    </ClCompile>
+    <ClCompile Include="cCube.cpp">
+      <Filter>BasicThings</Filter>
+    </ClCompile>
+    <ClCompile Include="cCamera.cpp">
+      <Filter>BasicThings</Filter>
+    </ClCompile>
+    <ClCompile Include="cCubeNode.cpp">
+      <Filter>BasicThings</Filter>
+    </ClCompile>
+    <ClCompile Include="cCubeMan.cpp">
+      <Filter>CubeMan</Filter>
+    </ClCompile>
+    <ClCompile Include="cGrid.cpp">
+      <Filter>BasicThings</Filter>
+    </ClCompile>
+    <ClCompile Include="cPyramid.cpp">
+      <Filter>BasicThings</Filter>
+    </ClCompile>
+    <ClCompile Include="cDeviceManager.cpp">
+      <Filter>MYMANAGER</Filter>
+    </ClCompile>
+    <ClCompile Include="cObjectManager.cpp">
+      <Filter>MYMANAGER</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeManager.cpp">
+      <Filter>MYMANAGER</Filter>
+    </ClCompile>
+    <ClCompile Include="cAction.cpp">
+      <Filter>Action</Filter>
+    </ClCompile>
+    <ClCompile Include="cActionBezier.cpp">
+      <Filter>Action</Filter>
+    </ClCompile>
+    <ClCompile Include="cActionLinear.cpp">
+      <Filter>Action</Filter>
+    </ClCompile>
+    <ClCompile Include="cActionRepeat.cpp">
+      <Filter>Action</Filter>
+    </ClCompile>
+    <ClCompile Include="cActionSeq.cpp">
+      <Filter>Action</Filter>
+    </ClCompile>
+    <ClCompile Include="cInterpolation.cpp">
+      <Filter>Action</Filter>
+    </ClCompile>
+    <ClCompile Include="cTextureManager.cpp">
+      <Filter>MYMANAGER</Filter>
+    </ClCompile>
+    <ClCompile Include="cAseLoaderScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameNode.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cBufferScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cSphereMesh.cpp">
+      <Filter>BasicThings</Filter>
+    </ClCompile>
+    <ClCompile Include="cRawLoader.cpp">
+      <Filter>FileLoader\RawLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="cRawLoaderScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="iMap.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="cHeightMap.cpp">
+      <Filter>Map\HeightMap</Filter>
+    </ClCompile>
+    <ClCompile Include="cCharacter.cpp">
+      <Filter>Objects\ObjBase</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameObject.cpp">
+      <Filter>Objects\ObjBase</Filter>
+    </ClCompile>
+    <ClCompile Include="cObject.cpp">
+      <Filter>Objects\ObjBase</Filter>
+    </ClCompile>
+    <ClCompile Include="cRabitGirl.cpp">
+      <Filter>Objects\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="cDie.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D3D_Base.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="D3D_Base.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
