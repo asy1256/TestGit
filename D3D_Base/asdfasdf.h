@@ -6,6 +6,9 @@ public:
 	~asdfasdf();
 
 	int a;
+	int b;
+	int c;
+	int d;
 	
 	void aaa();
 };
