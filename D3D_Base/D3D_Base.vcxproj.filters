@@ -216,6 +216,9 @@
     <ClInclude Include="asdsdddddddd.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="cGeometry3D.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -363,6 +366,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="asdsdddddddd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cGeometry3D.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
