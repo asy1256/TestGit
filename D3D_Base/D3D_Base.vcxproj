@@ -153,6 +153,7 @@
   <ItemGroup>
     <ClInclude Include="Asciitok.h" />
     <ClInclude Include="asdfasdf.h" />
+    <ClInclude Include="asdsdddddddd.h" />
     <ClInclude Include="cAseLoaderScene.h" />
     <ClInclude Include="cAction.h" />
     <ClInclude Include="cActionBezier.h" />
@@ -205,6 +206,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="asdfasdf.cpp" />
+    <ClCompile Include="asdsdddddddd.cpp" />
     <ClCompile Include="cAction.cpp" />
     <ClCompile Include="cActionBezier.cpp" />
     <ClCompile Include="cActionLinear.cpp" />
