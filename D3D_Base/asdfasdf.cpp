@@ -13,10 +13,6 @@ asdfasdf::~asdfasdf()
 
 void asdfasdf::aaa()
 {
-	a = 1;
-	b = 2;
-	c = 3;
-	d = 5;
 
 	// fuckfuck 焼たたたたたたたたたたたたたた
 	//焼たたたたたたたたたたたたたたたたたたたたたたた
