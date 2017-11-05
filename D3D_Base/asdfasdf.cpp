@@ -13,9 +13,6 @@ asdfasdf::~asdfasdf()
 
 void asdfasdf::aaa()
 {
-
-	// fuckfuck ¾Æ¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿
-	//¾Æ¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿
-	//¾Æ¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿¤¿
-	//¹Þ¾Æ¶ó ³ªÀÇ ÁÖ¼®ÀÇ ÆÄ¿ö ¸¦ ¾Æ¶û¾Æ¾Æ¾Æ¾Ó
+	//æˆšå“¡ç²¾ å§¶ç–«ç¨Ž æ…Žè•æˆšé™¥
+	//ç„¼ç„¼ç„¼ç„¼ç„¼ç„¼ç„¼ãŸãŸãŸãŸãŸãŸãŸ
 }
